@@ -2,8 +2,8 @@ Summary:	XML-RPC implementation for OCaml
 Summary(pl):	Implementacja XML-RPC dla OCamla
 Name:		ocaml-xmlrpc
 Version:	0.1.0
-Release:	1
-License:	LGPL/GPL
+Release:	2
+License:	GPL/LGPL
 Group:		Libraries
 Vendor:		Shawn Wagner <shawnw@speakeasy.org>
 URL:		http://raevnos.pennmush.org/code/ocaml.html
