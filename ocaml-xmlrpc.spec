@@ -8,6 +8,7 @@ Group:		Libraries
 Vendor:		Shawn Wagner <shawnw@speakeasy.org>
 URL:		http://raevnos.pennmush.org/code/ocaml.html
 Source0:	http://raevnos.pennmush.org/code/ocaml_xml-rpc-%{version}.tar.gz
+# Source0-md5:	fe6fc941434676f8bc4576ba618cf9e5
 BuildRequires:	ocaml-net-netstring-devel
 BuildRequires:	ocaml-netclient-devel
 BuildRequires:	ocaml-stew-devel
