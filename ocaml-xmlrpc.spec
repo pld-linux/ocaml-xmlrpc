@@ -18,7 +18,23 @@ BuildRequires:	ocaml >= 3.04-7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-No main package.
+XML-RPC is a protocol for remotely invoking functions in different
+programs (Usually on different computers) than where the calling code
+is. It's a pretty simple protocol compared to others like CORBA, DCOM,
+or even Java RMI. See http://www.xmlrpc.com/ for more information
+about XML-RPC.
+
+Library comes under LGPL, while oxridl tool comes under GPL.
+
+%description -l pl
+XML-RPC jest protoko³em pozwalaj±cym wywo³ywaæ funkcje w innych
+programach (przewa¿nie równie¿ na innych komputerach). Jest to ca³kiem
+prosty protokó³ w porównaniu do CORBA, DCOM czy nawet Java RMI. Na
+http://www.xmlrpc.com/ mo¿na znale¼æ wiêcej informacji na temat
+XML-RPC.
+
+Biblioteka jest rozprowadzana na zasadach LGPL, natomiast narzêdzie
+oxridl -- na GPL.
 
 %package devel
 Summary:	XML-RPC implementation for OCaml - development part
