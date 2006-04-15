@@ -1,21 +1,21 @@
+%define		ocaml_ver	3.09.1
 Summary:	XML-RPC implementation for OCaml
 Summary(pl):	Implementacja XML-RPC dla OCamla
 Name:		ocaml-xmlrpc
 Version:	0.1.0
-Release:	7
+Release:	8
 License:	GPL/LGPL
 Group:		Libraries
-Vendor:		Shawn Wagner <shawnw@speakeasy.org>
 URL:		http://raevnos.pennmush.org/code/ocaml.html
 Source0:	http://raevnos.pennmush.org/code/ocaml_xml-rpc-%{version}.tar.gz
 # Source0-md5:	fe6fc941434676f8bc4576ba618cf9e5
+BuildRequires:	ocaml >= %{ocaml_ver}
+BuildRequires:	ocaml-findlib
 BuildRequires:	ocaml-net-netstring-devel >= 1.1.1-2
 BuildRequires:	ocaml-netclient-devel
-BuildRequires:	ocaml-stew-devel
-BuildRequires:	ocaml-pxp-devel
 BuildRequires:	ocaml-pcre-devel
-BuildRequires:	ocaml-findlib
-BuildRequires:	ocaml >= 3.04-7
+BuildRequires:	ocaml-pxp-devel
+BuildRequires:	ocaml-stew-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
