@@ -1,6 +1,6 @@
 %define		ocaml_ver	1:3.09.2
 Summary:	XML-RPC implementation for OCaml
-Summary(pl):	Implementacja XML-RPC dla OCamla
+Summary(pl.UTF-8):   Implementacja XML-RPC dla OCamla
 Name:		ocaml-xmlrpc
 Version:	0.1.0
 Release:	10
@@ -27,19 +27,19 @@ about XML-RPC.
 
 Library comes under LGPL, while oxridl tool comes under GPL.
 
-%description -l pl
-XML-RPC jest protoko³em pozwalaj±cym wywo³ywaæ funkcje w innych
-programach (przewa¿nie równie¿ na innych komputerach). Jest to ca³kiem
-prosty protokó³ w porównaniu do CORBA, DCOM czy nawet Java RMI. Na
-http://www.xmlrpc.com/ mo¿na znale¼æ wiêcej informacji na temat
+%description -l pl.UTF-8
+XML-RPC jest protokoÅ‚em pozwalajÄ…cym wywoÅ‚ywaÄ‡ funkcje w innych
+programach (przewaÅ¼nie rÃ³wnieÅ¼ na innych komputerach). Jest to caÅ‚kiem
+prosty protokÃ³Å‚ w porÃ³wnaniu do CORBA, DCOM czy nawet Java RMI. Na
+http://www.xmlrpc.com/ moÅ¼na znaleÅºÄ‡ wiÄ™cej informacji na temat
 XML-RPC.
 
-Biblioteka jest rozprowadzana na zasadach LGPL, natomiast narzêdzie
+Biblioteka jest rozprowadzana na zasadach LGPL, natomiast narzÄ™dzie
 oxridl -- na GPL.
 
 %package devel
 Summary:	XML-RPC implementation for OCaml - development part
-Summary(pl):	Implementacja XML-RPC dla OCamla - cze¶æ programistyczna
+Summary(pl.UTF-8):   Implementacja XML-RPC dla OCamla - czeÅ›Ä‡ programistyczna
 Group:		Development/Libraries
 %requires_eq	ocaml
 %requires_eq	ocaml-net-netstring-devel
@@ -60,17 +60,17 @@ Library comes under LGPL, while oxridl tool comes under GPL.
 This package contains files needed to develop OCaml programs using
 this library.
 
-%description devel -l pl
-XML-RPC jest protoko³em pozwalaj±cym wywo³ywaæ funkcje w innych
-programach (przewa¿nie równie¿ na innych komputerach). Jest to ca³kiem
-prosty protokó³ w porównaniu do CORBA, DCOM czy nawet Java RMI. Na
-http://www.xmlrpc.com/ mo¿na znale¼æ wiêcej informacji na temat
+%description devel -l pl.UTF-8
+XML-RPC jest protokoÅ‚em pozwalajÄ…cym wywoÅ‚ywaÄ‡ funkcje w innych
+programach (przewaÅ¼nie rÃ³wnieÅ¼ na innych komputerach). Jest to caÅ‚kiem
+prosty protokÃ³Å‚ w porÃ³wnaniu do CORBA, DCOM czy nawet Java RMI. Na
+http://www.xmlrpc.com/ moÅ¼na znaleÅºÄ‡ wiÄ™cej informacji na temat
 XML-RPC.
 
-Biblioteka jest rozprowadzana na zasadach LGPL, natomiast narzêdzie
+Biblioteka jest rozprowadzana na zasadach LGPL, natomiast narzÄ™dzie
 oxridl -- na GPL.
 
-Pakiet ten zawiera pliki niezbêdne do tworzenia programów u¿ywaj±cych
+Pakiet ten zawiera pliki niezbÄ™dne do tworzenia programÃ³w uÅ¼ywajÄ…cych
 tej biblioteki.
 
 %prep
