@@ -1,6 +1,6 @@
 %define		ocaml_ver	1:3.09.2
 Summary:	XML-RPC implementation for OCaml
-Summary(pl.UTF-8):   Implementacja XML-RPC dla OCamla
+Summary(pl.UTF-8):	Implementacja XML-RPC dla OCamla
 Name:		ocaml-xmlrpc
 Version:	0.1.0
 Release:	10
@@ -39,7 +39,7 @@ oxridl -- na GPL.
 
 %package devel
 Summary:	XML-RPC implementation for OCaml - development part
-Summary(pl.UTF-8):   Implementacja XML-RPC dla OCamla - cześć programistyczna
+Summary(pl.UTF-8):	Implementacja XML-RPC dla OCamla - cześć programistyczna
 Group:		Development/Libraries
 %requires_eq	ocaml
 %requires_eq	ocaml-net-netstring-devel
